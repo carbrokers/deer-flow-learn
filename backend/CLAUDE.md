@@ -561,3 +561,15 @@ See `docs/` directory for detailed documentation:
 - [PATH_EXAMPLES.md](docs/PATH_EXAMPLES.md) - Path types and usage
 - [summarization.md](docs/summarization.md) - Context summarization
 - [plan_mode_usage.md](docs/plan_mode_usage.md) - Plan mode with TodoList
+
+## Learning Demo
+
+A small CLI learning demo lives in `backend/tech_decision_copilot/`. It is intentionally separate from the production DeerFlow runtime and exists to map DeerFlow ideas into a minimal workflow:
+
+- `workflow.py` models planner → researcher → analyzer → decision orchestration
+- `knowledge.py` acts as a local stand-in for tool-backed research
+- `memory.py` stores only decision-relevant session constraints
+- `reporting.py` renders a structured markdown report
+- `cli.py` exposes the demo via `uv run python -m tech_decision_copilot.cli --question "..."`
+
+The corresponding study guide is at `../docs/plans/2026-04-28-deerflow-learning-and-tech-decision-copilot.md`.

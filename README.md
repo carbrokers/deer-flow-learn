@@ -709,6 +709,7 @@ All dict-returning methods are validated against Gateway Pydantic response model
 - [Configuration Guide](backend/docs/CONFIGURATION.md) - Setup and configuration instructions
 - [Architecture Overview](backend/CLAUDE.md) - Technical architecture details
 - [Backend Architecture](backend/README.md) - Backend architecture and API reference
+- [DeerFlow 7-Day Learning Plan + CLI Demo](docs/plans/2026-04-28-deerflow-learning-and-tech-decision-copilot.md) - A guided study track plus the `Tech Decision Copilot` demo that maps DeerFlow concepts into a small runnable CLI workflow
 
 ## ⚠️ Security Notice
 

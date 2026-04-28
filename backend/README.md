@@ -406,6 +406,17 @@ uv run pytest
 - [Context Summarization](docs/summarization.md)
 - [Plan Mode](docs/plan_mode_usage.md)
 - [Setup Guide](docs/SETUP.md)
+- [7-Day Learning Plan + CLI Demo](../docs/plans/2026-04-28-deerflow-learning-and-tech-decision-copilot.md)
+
+## Learning Demo
+
+The backend also includes a small educational CLI demo at `tech_decision_copilot/`. It is a simplified decision agent used to study DeerFlow's design layers without touching the production runtime.
+
+Run it from `backend/`:
+
+```bash
+uv run python -m tech_decision_copilot.cli --question "前端 AI 产品原型阶段，使用 Next.js 还是 Vite + React？"
+```
 
 ---
 
